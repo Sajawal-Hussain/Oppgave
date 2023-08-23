@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <button onclick = "noLAYOUT()">
+            Ingen Layout
+        </button>
+        <button onclick= "verticalLAYOUT()">
+            Vertikal Layout
+        </button>
+        <button onclick= "horizontalLAYOUT()">
+            Horisontal Layout
+        </button>
+        <button onclick= "gridLAYOUT()">
+            Grid Layout
+        </button>
+    </div>
+
+    <h1> Eksempel 1 </h1>
+
+    <div id="cards">
+        <div class="card">
+            <div class="header green" onclick="showTools()">
+              Verktøy
+            </div>
+                <div id="cardTools"></div>
+        </div>
+
+        <div class="card">
+            <div class="header blue" onclick="showHtml()">
+             HTML 
+            </div>
+                 <div id="cardHtml"></div>
+        </div>
+    
+        <div class="card">
+            <div class="header red" onclick="showCss()">
+             CSS 
+            </div>
+                 <div id="cardCss"> </div>
+        </div>
+   
+        <div class="card">
+            <div class="header yellow" onclick="showJavaScript()">
+             Javascript
+            </div>
+                <div id="cardJavaScript"> </div>
+        </div>
+        
+        <div class="card">
+            <div class="header black" onclick="showHKB()">
+                Hode, kropp og ben
+            </div>
+                <div class= "bodies" id="cardHKB" ></div>
+
+        </div>
+
+    </div>
+
+   
+    <div class="output header">
+        <button onclick="Setnumberdown()">◀</button>
+         <div id="output">
+        0
+         </div>
+        <button onclick="Setnumberup()">▶</button>
+    </div>
+
+</body>
+
+</html>
+

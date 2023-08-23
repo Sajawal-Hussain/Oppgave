@@ -1,0 +1,79 @@
+body {
+    margin-left: 20px;
+}
+
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    margin: 10px;
+}
+
+.innerCard{
+    padding: 10px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1px 0;
+    border: 1px solid gray;
+    user-select: none;
+}
+
+.green {
+    background-color: seagreen;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.blue {
+    background-color: dodgerblue;
+}
+
+.black {
+    background-color: black;
+}
+
+p {
+    padding-left: 10px;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 520px);
+    width: auto;
+}
+
+.bodies {
+    text-align: center;
+    justify-content: center;
+}
+
+.output {
+    color: white;
+    width: 500px;
+    background-color: mediumaquamarine;
+    margin-left: 10px;
+}
+.silver,.gold,.red {
+    color: black;
+}
